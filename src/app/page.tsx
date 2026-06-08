@@ -13,7 +13,7 @@ import PricingCardNine from '@/components/sections/pricing/PricingCardNine';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardFifteen from '@/components/sections/testimonial/TestimonialCardFifteen';
-import { Award, Bed, ChefHat, Concierge, Heart, Sparkles, Utensils, Wifi, Wine } from "lucide-react";
+import { Award, Bed, ChefHat, Heart, Sparkles, Utensils, Wifi, Wine, BellRing } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -87,14 +87,15 @@ export default function LandingPage() {
       useInvertedBackground={true}
       heading={[
         {
-          type: "text",          content: "Our Legacy of Sweetness and Service"},
+          type: "image",          src: "http://img.b2bpic.net/free-photo/cooking-meatballs-ready-mince-lies-by-roasting-kitchen-table_132075-8834.jpg",          alt: "Traditional Indian chef preparing sweets"
+        },
+        {
+          type: "text",          content: "Our Legacy of Sweetness and Service"}
       ]}
       buttons={[
         {
-          text: "Learn More",          href: "#"},
+          text: "Learn More",          href: "#"}
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/cooking-meatballs-ready-mince-lies-by-roasting-kitchen-table_132075-8834.jpg"
-      imageAlt="Traditional Indian chef preparing sweets"
     />
   </div>
 
@@ -144,7 +145,7 @@ export default function LandingPage() {
               icon: Bed,
               text: "Luxurious Rooms"},
             {
-              icon: Concierge,
+              icon: BellRing,
               text: "Attentive Service"},
             {
               icon: Wifi,
@@ -203,7 +204,7 @@ export default function LandingPage() {
           imageSrc: "http://img.b2bpic.net/free-photo/man-with-breakfast-board-near-happy-woman-bed_23-2148007285.jpg",          imageAlt: "Deluxe Hotel Room"},
         {
           id: "hotel-suite",          title: "Luxury Suite Package",          price: "₹6,000",          period: "/night",          features: [
-            "Spacious Luxury Suite",            "Gourmet Breakfast Included",            "High-Speed Internet",            "Personalized Concierge",            "Early Check-in/Late Check-out"],
+            "Spacious Luxury Suite",            "Gourmet Breakfast Included",            "High-Speed Internet",            "Personalized BellRing",            "Early Check-in/Late Check-out"],
           button: {
             text: "Book Suite",            href: "#contact"},
           imageSrc: "http://img.b2bpic.net/free-photo/close-up-romantic-breakfast-bed-arrangement_23-2150956570.jpg",          imageAlt: "Luxury Hotel Suite"},
