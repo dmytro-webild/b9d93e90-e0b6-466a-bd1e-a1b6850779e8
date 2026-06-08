@@ -85,15 +85,15 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/diwali-feast-traditional-indian-sweets-festive-decorations_23-2152002855.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/diwali-feast-traditional-indian-sweets-festive-decorations_23-2152002855.jpg?_wi=1",
           imageAlt: "Assortment of traditional Indian sweets",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/restaurant-table-12-persons-with-blue-chairs-fireplace-white-brick-walls-wide-window_140725-8456.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/restaurant-table-12-persons-with-blue-chairs-fireplace-white-brick-walls-wide-window_140725-8456.jpg?_wi=1",
           imageAlt: "Elegant interior of an Indian restaurant",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/notebook-pillows-lying-bed_23-2147737695.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/notebook-pillows-lying-bed_23-2147737695.jpg?_wi=1",
           imageAlt: "Comfortable and luxurious hotel room",
         },
         {
@@ -162,7 +162,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/diwali-feast-traditional-indian-sweets-festive-decorations_23-2152002855.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/diwali-feast-traditional-indian-sweets-festive-decorations_23-2152002855.jpg?_wi=2",
           imageAlt: "traditional indian sweets display counter",
         },
         {
@@ -187,7 +187,7 @@ export default function LandingPage() {
             },
           ],
           reverse: true,
-          imageSrc: "http://img.b2bpic.net/free-photo/restaurant-table-12-persons-with-blue-chairs-fireplace-white-brick-walls-wide-window_140725-8456.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/restaurant-table-12-persons-with-blue-chairs-fireplace-white-brick-walls-wide-window_140725-8456.jpg?_wi=2",
           imageAlt: "traditional indian sweets display counter",
         },
         {
@@ -212,7 +212,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/notebook-pillows-lying-bed_23-2147737695.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/notebook-pillows-lying-bed_23-2147737695.jpg?_wi=2",
           imageAlt: "traditional indian sweets display counter",
         },
       ]}
