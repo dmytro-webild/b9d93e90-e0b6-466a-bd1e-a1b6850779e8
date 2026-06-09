@@ -23,10 +23,10 @@ export default function LandingPage() {
         borderRadius="rounded"
         contentWidth="smallMedium"
         sizing="mediumLarge"
-        background="grid"
-        cardStyle="gradient-radial"
-        primaryButtonStyle="primary-glow"
-        secondaryButtonStyle="glass"
+        background="floatingGradient"
+        cardStyle="soft-shadow"
+        primaryButtonStyle="shadow"
+        secondaryButtonStyle="solid"
         headingFontWeight="normal"
     >
       <ReactLenis root>
